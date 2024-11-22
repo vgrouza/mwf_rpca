@@ -233,7 +233,7 @@ def romeo_phaseunwrap_api(input_study_path: str):
 
 def recon_meses(input_study_path: str, zero_pad: bool = True, apodization_factor: float = 0.25):
     """
-    A simple function to reconstruct the mGRE images in the MbpKO dataset.
+    A simple function to reconstruct the MESE images in the MbpKO dataset.
     """
     # set up paths and create directories, if needed
     input_study_full_path = os.path.join(raw_data_dir, input_study_path)
@@ -268,7 +268,7 @@ def recon_meses(input_study_path: str, zero_pad: bool = True, apodization_factor
 
 def preproc_meses(input_study_path: str):
     """
-    A simple function to preprocess mGRE images for downstream model fitting.
+    A simple function to preprocess MESE images for downstream model fitting.
     """
     # set up paths
     output_study_full_path = os.path.join(int_data_dir, input_study_path, 'mese')
