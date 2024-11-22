@@ -12,4 +12,4 @@ All code included to reproduce the analysis carried out for rPCA of pre-clinical
 
 -rpca_api.py demonstrates how to run the rPCA analysis on mGRE data, implemented in mwf_rpca.py
 
--decaes_api.py demonstrates how to run DECAES on MESE data, in a Python-friednly way.
+-decaes_api.py demonstrates how to run DECAES on MESE data, in a Python-friendly way.
